@@ -52,7 +52,7 @@ if salesTaxYesNo == "yes":
             if tax is float(tax):
                 taxToPercentage = (tax / 100)
                 print("The total cost of your project is:", str((round(costPerSqFt*area*(1+(taxToPercentage)), 2)))+".")
-                print("Thank You for using my Cost estimator, good luck with your project!")
+                print("Thank You for using my Cost estimator, Good luck with your project!")
             if tax is not float(tax):
                 raise ValueError
             break
@@ -60,6 +60,6 @@ if salesTaxYesNo == "yes":
             print("Please only enter numbers")
 
 elif salesTaxYesNo == "no":
-    print("Thank You for using my Cost estimator, good luck with your project!")
+    print("Thank You for using my Cost estimator, Good luck with your project!")
 
 
